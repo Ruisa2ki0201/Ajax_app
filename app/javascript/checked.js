@@ -2,7 +2,6 @@ function check() {
   // 投稿のDOMを取得している
   const posts = document.getElementsByClassName("post")
   postsA = Array.from(posts);
-  console.log(postsA)
   
   // 取得したDOMを配列に変換している
   postsA.forEach(function (post) {
